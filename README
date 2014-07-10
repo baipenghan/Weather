@@ -9,7 +9,7 @@ Open a browser, type in the url:   localhost:8080/weather    Now you can see the
 
 You can add query parameters at the end of the url:  e.g.  localhost:8080/weather?a=123&b=qqq
 
-Don't run the url in browser more than 2 times in a minute, because the free account for WeatherUnderground API only allows max 10 times queries per minute.
+Don't run the url in browser more than 2 times in a minute, because the free account for WeatherUnderground API only allows max 10 requests per minute.
 And every time we run the url, there are 4 http requests because we have 4 cities.
 
 
