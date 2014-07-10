@@ -15,7 +15,7 @@ And every time we run the url, there are 4 http requests because we have 4 citie
 
 Some explanations about the web app:
 
-I implemented the part of HTTP requests for Weather Underground in the server side, by calling Node HTTP requests funtions in parallel.
+I implemented the part of HTTP requests for Weather Underground on the server side, by calling Node HTTP requests funtions in parallel.
 I didn't implement the HTTP requests on the Client side by calling JQuery ajax funtion, because the requirement doesn't say anything about using JQuery.
 And also, if we'd like to implement it on the Client side, we'd better use some Node template engine, so that we can write JQuery functions in html files. Since the requirement doesn't say about using Node Template engine.
 
