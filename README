@@ -17,6 +17,7 @@ Some explanations about the web app:
 
 I implemented the part of HTTP requests for Weather Underground on the server side, by calling Node HTTP requests funtions in parallel.
 I didn't implement the HTTP requests on the Client side by calling JQuery ajax funtion, because the requirement doesn't say anything about using JQuery.
-And also, if we'd like to implement it on the Client side, we'd better use some Node template engine, so that we can write JQuery functions in html files. Since the requirement doesn't say about using Node Template engine, I chose to do it on the server side.
+And also, if we'd like to implement it on the Client side, we'd better use some Node template engine, so that we can write JQuery functions in html files. Since the requirement doesn't say about using Node Template engine, and I assume this exercise is trying to test the ability to code in an unfamiliar technology (I've never developed in Node.js before), I chose to do it on the server side.
+
 
 However, usually we implement the http requests on the client side, in order to reduce the wordload of the server, and put the workload to every client.
