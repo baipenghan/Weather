@@ -1,0 +1,11 @@
+{
+  "name": "PayPal",
+  "description": "PayPal Exercise",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "async": "latest"
+  }
+}

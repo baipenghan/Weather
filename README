@@ -1,0 +1,22 @@
+Weather Web Application
+
+How to run the Web Application:
+
+To run the web application, first make sure Node.js is installed. Then cd into the directory that contains server.js, run:
+    $ node server.js
+
+Open a browser, type in the url:   localhost:8080/weather?    Now you can see the result table.
+
+You can add query parameters at the end of the url:  e.g.  localhost:8080/weather?a=123&b=qqq
+
+Don't run the url in browser more than 2 times in a minute, because the free account for WeatherUnderground API only allows max 10 times queries per minute.
+And every time we run the url, there are 4 http requests because we have 4 cities.
+
+
+Some explanations about the web app:
+
+I implemented part of HTTP requests for Weather Underground in the server side, by calling Node request funtions.
+I didn't implement the HTTP requests on the Client side by calling JQuery ajax funtion, because the requirement doesn't say anything about using JQuery.
+And also, if we'd like to implement it on the Client side, we'd better use some Node template engine, so that we can write JQuery functions in html files. Since the requirement doesn't say about using Node Template engine.
+
+However, usually we implement the http requests on the client side, in order to reduce the wordload of the server, and put the workload to every client.
