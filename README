@@ -5,7 +5,7 @@ How to run the Web Application:
 To run the web application, first make sure Node.js is installed. Then cd into the directory that contains server.js, run:
     $ node server.js
 
-Open a browser, type in the url:   localhost:8080/weather?    Now you can see the result table.
+Open a browser, type in the url:   localhost:8080/weather    Now you can see the result table.
 
 You can add query parameters at the end of the url:  e.g.  localhost:8080/weather?a=123&b=qqq
 
